@@ -7,14 +7,14 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context){
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: Scaffold(
-        appBar: AppBar(title: Text('Scrollable List',style: TextStyle(color: Colors.white),),centerTitle: true,backgroundColor: Colors.purple,),
-        body: Container(
-          margin: EdgeInsets.all(10),
-          padding: EdgeInsets.all(10),
-        ),
+      home:Scaffold(
+        body:DynamicList(),
+      )
 
-      ),
     );
   }
+}
+class DynamicList extends StatelessWidget{
+  return Container(
+  )
 }
